@@ -1,0 +1,44 @@
+.buttonPlay {
+    align-items: center;
+    background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+    border: 0;
+    border-radius: 50%;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.buttonPlay:active,
+.buttonPlay:hover {
+    outline: 0;
+}
+
+.buttonPlay span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 20px;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+    font-size: 2rem;
+    overflow: hidden;
+    display: flex;
+}
+
+.buttonPlay:hover span {
+    background: none;
+}
+
+.group {
+    display: flex;
+    padding-bottom: 15px;
+}
