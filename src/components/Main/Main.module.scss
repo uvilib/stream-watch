@@ -1,0 +1,10 @@
+@import url('../../styles/global.css');
+
+.container {
+    max-width: var(--desktop-width);
+    margin: 0 auto;
+    font-family: 'Noto Sans JP', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}

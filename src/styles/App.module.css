@@ -12,11 +12,11 @@ body {
     background-color: #f6d327;
     background-image: linear-gradient(315deg, #f6d327 0%, #de4daa 74%);
 }
-.container {
+/* .container {
     max-width: var(--desktop-width);
     margin: 0 auto;
     font-family: 'Noto Sans JP', sans-serif;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2rem;
-}
+} */
